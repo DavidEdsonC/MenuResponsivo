@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) {
+    i#hamburguer {
+        display: none;
+    }
+    menu {
+        display: block;
+        text-align: center;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    menu > ul > li > a {
+        border: none;
+    }
+    menu > ul > li > a:hover {
+        background-color: rgb(48, 71, 107);
+    }
+    main {
+        width: 768px;
+    }
+    article > h2 {
+        margin: auto;
+    }
+}
+
